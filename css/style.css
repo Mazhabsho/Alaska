@@ -1,0 +1,52 @@
+*{
+    padding: 0;margin: 0;
+}
+.M_container_img{
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.M_container_img h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.M_img_blocks{
+    width: 90%;
+    margin: auto;
+}
+.M_img_blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.M_img_itemone,.M_img_itemwto,.M_img_itemthree{
+ width: 32%;
+ height: 20rem;
+ border: 1px solid #fff;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ border-radius: 8px;
+ margin-bottom: 30px;
+ border:none;
+}
+.M_img_itemone p,.M_img_itemwto p,.M_img_itemthree p{
+    font-size: 2rem;
+    color:#fff;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.M_img_itemone{
+    background-image: url(../images/brew_tour.jpeg);
+    background-position: center;
+}
+.M_img_itemwto{
+    background-image: url(../images/city_tour.jpeg);
+    background-position: center;
+}
+.M_img_itemthree{
+    background-image: url(../images/museam.jpeg);
+    background-position: center;
+}
