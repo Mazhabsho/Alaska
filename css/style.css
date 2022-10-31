@@ -1,6 +1,117 @@
 *{
     padding: 0;margin: 0;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_left,.navbar_right{
+    width: 24%;
+}
+.navbar_center{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.navbar_center ul{
+    display: flex;
+    gap: 35px;
+}
+.navbar_center ul li{
+    font-size: 22px;
+    padding: 5px;
+}
+.navbar_center ul li:hover{
+    background: #000;
+    border-radius:5px;
+}
+.navbar_center ul li a{
+  color:#000;
+}
+.navbar_center ul li a:hover{
+    color:#f7c20d;
+}
+.navbar_left p{
+    color:#000;
+    font-size: 22px;
+}
+.navbar_right{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar_right .bnts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    background: gold;
+    border-radius:5px;
+    border:none;
+}
+.navbar_right .bnts a{
+    font-size: 15px;
+    color:#000;
+}
+.navbar_right .bnts:hover{
+    background: #000;
+}
+.navbar_right .bnts a:hover{
+    color:gold;
+}
+/* ilhom */
+a{
+    text-decoration: none;
+}
+.container
+{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-image: url(../images/bgilhom.jpeg);
+}
+.one img
+{
+    margin-left: 580px;
+    margin-top: 160px;
+}
+.one h1
+{
+    margin-left: 450px;
+    margin-top: 50px;
+    font-size: 10rem;
+    letter-spacing: 4px;
+    color: #f7c20d;
+    font-weight: lighter;
+    font-family:serif;
+}
+.one span
+{
+    color: white;
+    font-family:sans-serif;
+    letter-spacing: 4px;
+    font-size: 1.25rem;
+    margin-left: 575px;
+}
+.link a
+{
+    color: #f7c20d;
+    font-size: 80px;
+    margin-left: 640px;
+}
+
+/* Mazhabsho */
 .M_container_img{
     background-image: url(../images/background.jpeg);
     background-size: cover;
@@ -9,8 +120,9 @@
 .M_container_img h2{
     font-size: 2.5rem;
     text-align: center;
-    color: #fff;
+    color: gold;
     margin-bottom: 2rem;
+   padding-top: 2rem;
 }
 .M_img_blocks{
     width: 90%;
@@ -50,3 +162,79 @@
     background-image: url(../images/museam.jpeg);
     background-position: center;
 }
+
+.section_btn{
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    margin: auto;
+    width: 250px;
+    padding-bottom: 2rem;
+} 
+.btn button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 8px 25px;
+ background: gold;
+ border-radius:5px;
+ border:none;
+}
+.btn button a{
+    font-size: 18px;
+    color:#fff;
+}
+.btn button:hover{
+    background: #000;
+    transition: 0.3 ease-in-out;
+}
+.btn button a:hover{
+    color: gold;
+}
+
+/* davrom */
+.cota{
+    width: 100%;
+   height: 110vh;
+   background-image: url(../images/davron.jpeg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cot{
+    width: 78%;
+}
+.co{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right{
+ width: 50%;
+}
+.left{
+    width: 50%;
+   }
+.is{
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #f7c20d ;
+    line-height: 1.1;
+   }
+.al{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: #ffffff;
+    pointer-events: initial;
+    padding-bottom: 40px;
+   }
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color:#f7c20d ;
+
+   }
